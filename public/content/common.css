@@ -1,0 +1,72 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap'); */
+@font-face {
+  font-family: 'Fraunces';
+  src: url('./Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf') format('truetype');
+}
+
+:root {
+  --primary: #f85a4f;
+  --secondary: #000;
+  --neutral: #e2d4ca;
+  --neutral-l: #f6f0eb;
+  --neutral-d: #241a0b;
+  --accent-r: #c24229;
+  --accent-g: #46c3a1;
+  --accent-o: #f99f25;
+  --accent-y: #f0c86e;
+}
+
+body {
+  font-family: 'Fraunces', sans-serif;
+  line-height: 1.5;
+  background-color: var(--neutral-l);
+}
+
+/* color */
+.p {
+  color: var(--primary);
+}
+
+.s {
+}
+
+/* bg */
+.bg-n-l {
+  background-color: var(--neutral-l);
+}
+.bg-n-d {
+  background-color: var(--neutral-d);
+}
+
+/* font */
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+/* icon */
+
+.icon-s {
+  width: 16px;
+  height: 16px;
+}
+
+.icon-l {
+  width: 32px;
+  height: 32px;
+}
+
+/* effect */
+
+.item.active {
+  color: var(--primary);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.item:hover {
+  transition: all 0.25s ease;
+  color: var(--primary);
+  text-decoration: underline;
+}

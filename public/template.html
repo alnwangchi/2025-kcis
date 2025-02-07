@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./content/output.css" />
+    <link rel="stylesheet" href="./content/common.css" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="max-w-screen min-h-screen">
+    <header class="py-5 bg-white">
+      <nav class="flex justify-between container">
+        <div class="logo">
+          <a href="./index.html">Logo</a>
+        </div>
+        <ul class="D-menu flex gap-5">
+          <!-- <li class="mx-4">
+            <a href="./project.html">Project</a>
+          </li> -->
+        </ul>
+      </nav>
+    </header>
+    <main class="bg-white">
+      <section class="relative bg-cover bg-center h-[360px]">
+        <div class="absolute inset-0 flex items-center justify-center bg-n-l">
+          <h1 class="text-white text-4xl">Centered Text on Image</h1>
+        </div>
+      </section>
+      <div class="flex container py-5">
+        <aside class="p-5 max-w-[35%] border-r border-black">
+          <ul class="space-y-5 D-content-list">
+            <li class="cursor-pointer item active underline-offset-4">123</li>
+            <!-- <li class="cursor-pointer">456</li>
+            <li class="cursor-pointer">789</li> -->
+          </ul>
+        </aside>
+        <article class="p-5"></article>
+      </div>
+    </main>
+
+    <footer>
+      <div class="flex justify-between p-10 container">
+        <div>
+          <img src="" alt="" />
+          <div>
+            <h3 class="p mb-3">Taipei-Kcislk-v3</h3>
+            <div class="flex items-center gap-3">
+              <img class="icon-s" src="./content/assets/phone.svg" />
+              <p>+886 0 0000000</p>
+            </div>
+            <div class="flex items-center gap-3">
+              <img class="icon-s" src="./content/assets/envelope.svg" />
+              <p>kcislk.igem.2023@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center gap-10">
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <img class="icon-l" src="./content/assets/facebook.svg" />
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <img class="icon-l" src="./content/assets/instagram.svg" />
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <img class="icon-l" src="./content/assets/youtube.svg" />
+          </a>
+        </div>
+      </div>
+      <div class="text-xs text-center bg-n-d text-white py-5 space-y-2">
+        <p>
+          © 2024 Content on this site is licensed under a Creative Commons Attribution 4.0
+          International license.
+        </p>
+        <p>
+          The repository used to create this website is available at
+          https://gitlab.igem.org/2025/Taipei-Kcislk-v3
+        </p>
+      </div>
+    </footer>
+  </body>
+
+  <script src="./content/common.js"></script>
+  <script src="./content/project.js"></script>
+</html>
