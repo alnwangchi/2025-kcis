@@ -1,7 +1,18 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap'); */
 @font-face {
   font-family: 'Fraunces';
   src: url('./Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Thunderman';
+  src: url('https://db.onlinewebfonts.com/t/28d4f822989fee21b19067d87b6dbe17.eot');
+  src: url('https://db.onlinewebfonts.com/t/28d4f822989fee21b19067d87b6dbe17.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/28d4f822989fee21b19067d87b6dbe17.woff2') format('woff2'),
+    url('https://db.onlinewebfonts.com/t/28d4f822989fee21b19067d87b6dbe17.woff') format('woff'),
+    url('https://db.onlinewebfonts.com/t/28d4f822989fee21b19067d87b6dbe17.ttf') format('truetype'),
+    url('https://db.onlinewebfonts.com/t/28d4f822989fee21b19067d87b6dbe17.svg#Thunderman')
+      format('svg');
 }
 
 :root {
@@ -17,7 +28,7 @@
 }
 
 body {
-  font-family: 'Fraunces', sans-serif;
+  font-family: 'Thunderman', sans-serif;
   line-height: 1.5;
   background-color: var(--neutral-l);
 }
@@ -27,21 +38,42 @@ body {
   color: var(--primary);
 }
 
-.s {
+.a-y {
+  color: var(--accent-y);
 }
 
 /* bg */
+.bg-n {
+  background-color: var(--neutral);
+}
+
 .bg-n-l {
   background-color: var(--neutral-l);
 }
+
 .bg-n-d {
   background-color: var(--neutral-d);
 }
 
 /* font */
 
+h1 {
+  font-size: 7.5rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
 h3 {
   font-size: 1.5rem;
+  font-weight: 900;
+}
+
+h4 {
+  font-size: 1.25rem;
   font-weight: 900;
 }
 
@@ -69,4 +101,9 @@ h3 {
   transition: all 0.25s ease;
   color: var(--primary);
   text-decoration: underline;
+}
+
+.outlined-text-p {
+  color: var(--primary);
+  text-shadow: -4px -4px 0 #fff, 4px -4px 0 #fff, -4px 4px 0 #fff, 4px 4px 0 #fff;
 }

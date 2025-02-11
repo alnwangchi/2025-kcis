@@ -6,6 +6,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="./content/output.css" />
     <link rel="stylesheet" href="./content/common.css" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
   <body class="max-w-screen min-h-screen">
     <header class="py-5 bg-white">
@@ -21,32 +22,95 @@
       </nav>
     </header>
 
-    <footer>
-      <div class="flex justify-between p-10 container">
-        <div>
-          <img src="" alt="" />
-          <div>
-            <h3 class="p mb-3">Taipei-Kcislk-v3</h3>
-            <div class="flex items-center gap-3">
-              <img class="icon-s" src="./content/assets/phone.svg" />
-              <p>+886 0 0000000</p>
-            </div>
-            <div class="flex items-center gap-3">
-              <img class="icon-s" src="./content/assets/envelope.svg" />
-              <p>kcislk.igem.2023@gmail.com</p>
-            </div>
+    <main>
+      <section class="py-10 relative container">
+        <img src="./content/assets/pics/index/webindex-kv.png" alt="" />
+        <h1 class="outlined-text-p tracking-wider absolute bottom-0 left-15 rotate-[-8deg]">
+          Digiworm
+        </h1>
+      </section>
+
+      <section class="py-10 text-center container">
+        <h3 class="a-y mb-5">Taipei-Kcislk-v3</h3>
+        <p class="leading-8">
+          Did you know that... <br />
+          cardiovascular diseases <br />are the leading cause of death globally, claiming an
+          estimated <br />
+          <span class="p text-3xl relative top-[6px]"> 17.9 million </span>lives each year?
+        </p>
+      </section>
+
+      <section class="py-10 bg-white text-center">
+        <div class="container">
+          <h3 class="mb-5 p">Explore me like one of your projects</h3>
+          <div class="flex justify-around items-center">
+            <a class="flex flex-col gap-3" href="./index.html">
+              <div class="w-[120px] h-[120px]">
+                <img src="./content/assets/pics/index/icon-project.png" alt="" />
+              </div>
+              <h4 class="">Project</h4>
+            </a>
+            <a class="flex flex-col gap-3" href="./index.html">
+              <div class="w-[120px] h-[120px]">
+                <img src="./content/assets/pics/index/icon-weblab.png" alt="" />
+              </div>
+              <h4 class="">Wet lab</h4>
+            </a>
+            <a class="flex flex-col gap-3" href="./index.html">
+              <div class="w-[120px] h-[120px]">
+                <img src="./content/assets/pics/index/icon-hardware.png" alt="" />
+              </div>
+              <h4 class="">Hardware</h4>
+            </a>
+            <a class="flex flex-col gap-3" href="./index.html">
+              <div class="w-[120px] h-[120px]">
+                <img src="./content/assets/pics/index/icon-humanpractices.png" alt="" />
+              </div>
+              <h4 class="">Human Practices</h4>
+            </a>
+            <a class="flex flex-col gap-3" href="./index.html">
+              <div class="w-[120px] h-[120px]">
+                <img src="./content/assets/pics/index/icon-model.png" alt="" />
+              </div>
+              <h4 class="">Model</h4>
+            </a>
           </div>
         </div>
-        <div class="flex items-center gap-10">
-          <a href="" target="_blank" rel="noopener noreferrer">
-            <img class="icon-l" src="./content/assets/facebook.svg" />
-          </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
-            <img class="icon-l" src="./content/assets/instagram.svg" />
-          </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
-            <img class="icon-l" src="./content/assets/youtube.svg" />
-          </a>
+      </section>
+
+      <section class="py-10 container text-center">
+        <h3 class="mb-5 p">Sponsors</h3>
+      </section>
+    </main>
+
+    <footer>
+      <div class="bg-n">
+        <div class="container flex justify-between p-10">
+          <div>
+            <img src="" alt="" />
+            <div>
+              <h3 class="p mb-3">Taipei-Kcislk-v3</h3>
+              <div class="flex items-center gap-3">
+                <img class="icon-s" src="./content/assets/phone.svg" />
+                <p>+886 0 0000000</p>
+              </div>
+              <div class="flex items-center gap-3">
+                <img class="icon-s" src="./content/assets/envelope.svg" />
+                <p>kcislk.igem.2023@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-10">
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <img class="icon-l" src="./content/assets/facebook.svg" />
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <img class="icon-l" src="./content/assets/instagram.svg" />
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <img class="icon-l" src="./content/assets/youtube.svg" />
+            </a>
+          </div>
         </div>
       </div>
       <div class="text-xs text-center bg-n-d text-white py-5 space-y-2">
